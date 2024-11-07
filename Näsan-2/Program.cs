@@ -13,4 +13,16 @@ for (int i = 0; i < toys.Length; i++)
     Console.WriteLine($"{classmates[i]} gives the {toys[i]} the rate {numbers[i]}");   
 }
 
+// Punkt 6
+List<string> cities = new();
+
+// Punkt 7
+string answer = "";
+while (answer != "exit")
+{
+    Console.WriteLine("Please write a name of a city");
+    answer = Console.ReadLine();
+    // add
+}
+
 Console.ReadLine();
