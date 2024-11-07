@@ -7,4 +7,7 @@ foreach (string toy in toys)
     Console.WriteLine(toy);
 }
 
+// Punkt 3
+List<string> classmates = ["Linnea", "Amira", "Tea", "Aleks", "Ana"];
+
 Console.ReadLine();
