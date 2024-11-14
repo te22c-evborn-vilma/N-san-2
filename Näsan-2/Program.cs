@@ -25,5 +25,10 @@ while (answer != "exit")
     cities.Add(answer);
 }
 
+// Punkt 8
+for (int i = 0; i < cities.Count; i++)
+{
+    Console.WriteLine(cities[i]);
+}
 
 Console.ReadLine();
