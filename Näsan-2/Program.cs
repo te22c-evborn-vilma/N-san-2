@@ -22,7 +22,8 @@ while (answer != "exit")
 {
     Console.WriteLine("Please write a name of a city");
     answer = Console.ReadLine();
-    // add
+    cities.Add(answer);
 }
+
 
 Console.ReadLine();
